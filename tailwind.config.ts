@@ -52,6 +52,13 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Custom task management colors
+				task: {
+					complete: 'hsl(var(--task-complete))',
+					pending: 'hsl(var(--task-pending))',
+					bg: 'hsl(var(--task-bg))',
+					hover: 'hsl(var(--task-hover))'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
